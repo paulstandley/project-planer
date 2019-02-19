@@ -21,4 +21,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```BASH
 npx create-react-app name
 npm install react-router-dom
+npm install redux
+npm install react-redux
 ```
