@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +10,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(/img/bg.jpg) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-color: lightslategray;
+  min-height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+form {
+  padding: 1.5rem;
+  margin-top: 9rem;
+}
+
+form button, form h5 {
+  margin: 1.5rem 0;
+}
+
+input[type=text]:not(.brower-default):focus:not([readonly]),
+input[type=email]:not(.brower-default):focus:not([readonly]),
+input[type=password]:not(.brower-default):focus:not([readonly]),
+textarea.materlize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
 }
