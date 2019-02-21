@@ -24,4 +24,5 @@ npm install react-router-dom
 npm install redux
 npm install react-redux
 npm install redux-thunk
+npm install firebase
 ```
