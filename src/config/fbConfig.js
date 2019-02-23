@@ -4,7 +4,7 @@ import 'firebase/auth';
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyDHo6VWy-WRYRFb8SBL7BMHjlo7mj1rHI4",
+  apiKey: "API KEY",
   authDomain: "project-planer-8d7d7.firebaseapp.com",
   databaseURL: "https://project-planer-8d7d7.firebaseio.com",
   projectId: "project-planer-8d7d7",
