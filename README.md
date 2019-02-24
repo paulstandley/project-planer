@@ -19,12 +19,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Dep
 
 ```BASH
+npm install react-redux@5.1.1
+npm install react-redux-firebase@2.2.4
 npx create-react-app name
 npm install react-router-dom
 npm install redux
-npm install react-redux
 npm install redux-thunk
 npm install firebase
-npm install react-redux-firebase
 npm install redux-firestore
 ```

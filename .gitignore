@@ -5,7 +5,6 @@
 /.pnp
 .pnp.js
 .env
-/src/config/fbConfig.js
 
 # testing
 /coverage
