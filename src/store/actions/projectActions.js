@@ -7,7 +7,7 @@ export const createProject = (project) => {
     ...project,
     authorFirstName: 'Paul',
     authorLastName: 'Standley',
-    authorId: 12345,
+    authorId: Math.floor(Math.random() * 1000000000),
     createdAt: new Date()
   }).then(() => {
     dispatch({ type: 'CREATE_PROJECT', project});
