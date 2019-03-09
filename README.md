@@ -27,4 +27,5 @@ npm install redux
 npm install redux-thunk
 npm install firebase
 npm install redux-firestore
+npm install moment
 ```
