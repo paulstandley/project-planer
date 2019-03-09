@@ -29,4 +29,6 @@ npm install firebase
 npm install redux-firestore
 npm install moment
 npm install -g firebase-tools
+firebase init
+firebase deploy --only functions
 ```
