@@ -18,7 +18,8 @@ class CreatProject extends Component {
   handelSubmit = (evt) => {
     evt.preventDefault();
     //console.log(this.state);
-    this.props.createProject(this.state)
+    this.props.createProject(this.state);
+    this.props.history.push('/');
   }
 
   render() {

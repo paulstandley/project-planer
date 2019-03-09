@@ -16,7 +16,7 @@ const ProjectDetails = (props) => {
             <p>{project.content}</p>
           </div>
           <div className="card-action grey lighten-4 grey-text">
-            <div>Posted by {project.firstName} {project.lastName}</div>
+            <div>Posted by {project.authorFirstName} {project.authorLastName}</div>
             <div>18th Feb, 20:29</div>
           </div>
         </div>
