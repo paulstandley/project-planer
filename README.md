@@ -32,3 +32,25 @@ npm install -g firebase-tools
 firebase init
 firebase deploy --only functions
 ```
+
+---
+
+### Data Base Rules
+
+```JAVASCRIPT
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /project/{project} {
+      allow read, write: if request.auth.uid != null
+    }
+    match /users/{userId} {
+      allow create
+      allow read: if request.auth.uid != null
+      allow write: if request.auth.uid == userId
+    }
+    match /notifications/{notification} {
+      allow read, write: if request.auth.uid != null
+    }
+  }
+}
+```
