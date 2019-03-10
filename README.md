@@ -2,13 +2,15 @@
 
 ![Profile Pick](http://res.cloudinary.com/pieol2/image/upload/v1516543296/profile-small.png)
 
----
-
-## [The Net Ninja You Tube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3)
+## [Live Hosting Firebase](https://project-planer-8d7d7.firebaseapp.com/)
 
 ---
 
-## [The Net Ninja Github Repo](https://github.com/iamshaunjp/React-Redux-Firebase-App)
+### [The Net Ninja You Tube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3)
+
+---
+
+### [The Net Ninja Github Repo](https://github.com/iamshaunjp/React-Redux-Firebase-App)
 
 ---
 
@@ -31,6 +33,8 @@ npm install moment
 npm install -g firebase-tools
 firebase init
 firebase deploy --only functions
+npm run build
+firebase deploy
 ```
 
 ---
